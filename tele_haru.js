@@ -23,7 +23,7 @@ bot.on('message', (msg) => {
         if ( msg.text.toString() == "namanya siapa") {
             bot.sendMessage(chatId, "namaku haruchan, calonnya aminudin hehe");
         }else{
-            // bot.sendMessage(chatId, JSON.parse(body).response);
+            bot.sendMessage(chatId, JSON.parse(body).response);
         }
     });
 
