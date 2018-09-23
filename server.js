@@ -3,8 +3,8 @@ const express = require('express');
 const axios = require('axios');
  
 const config = {
-  channelAccessToken: "WieVSkkstB+KILW7ZqdpMKkPs+BzI4M3cEcjXyIrNe9ynVjJZKUd9XKveN5EeA24iabMnLB704xKwQZMD3RxKU+m/IZT2t/hJK/biFhJi4922QoIaksxgcjVaY2AEsOhPVJKbGfeMiQwR8HXgXgewdB04t89/1O/w1cDnyilFU=",
-  channelSecret: "50609a42ec09ac881edf63a1ada5317c",
+  channelAccessToken: "kkstB+KILW7ZqdpMKkPs+BzI4M3cEcjXyIrNe9ynVjJZKUd9XKveN5EeA24iabMnLB704xKwQZMD3RxKU+m/IZT2t/hJK/biFhJi4922QoIaksxgcjVaY2AEsOhPVJKbGfeMiQwR8HXgXgewdB04t89/1O/w1cDnyilFU=",
+  channelSecret: "a42ec09ac881edf63a1ada5317c",
 };
  
 // create LINE SDK client
