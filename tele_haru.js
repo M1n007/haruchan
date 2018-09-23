@@ -1,10 +1,10 @@
 const TelegramBot = require('node-telegram-bot-api');
-const token = '659199832:AAFs-MyQ-u0N3sCbeSJFczW6-ZxN_GEvNxs';
+const token = '659199832:AAFs-MyQ-u0N3sCbeS]';
 const bot = new TelegramBot(token, { polling: true });
 const fetch = require('node-fetch');
 const request = require('request');
 
-const simsimiKey = 'cc09e04a-62db-492d-b3b1-4ec654ed82ed';
+const simsimiKey = 'cc09e04a-62db-492d-b3b1';
 const url = `http://sandbox.api.simsimi.com/request.p?key=${simsimiKey}&lc=id&ft=1.0&text=`;
 
 // async function getSholat(){
