@@ -20,14 +20,18 @@ bot.on('message', (msg) => {
     const chatId = msg.chat.id;
 
     request(url + msg.text.toString(), (err, response, body) => {
-        bot.sendMessage(chatId, JSON.parse(body).response);
+        if (url+msg.text.toString() == "namanya siapa") {
+            null
+        }else{
+            bot.sendMessage(chatId, JSON.parse(body).response);
+        }
     });
 
     // if (msg.text.toString() == "jadwal sholat") {
     //     bot.sendMessage(chatId, "ini jadwal sholat sekarang ka "+JSON.parse(getSholat()));
     // }
 
-    if (msg.text.toString() === "namanya siapa") {
+    if (msg.text.toString() == "namanya siapa") {
         bot.sendMessage(chatId, "namaku haruchan, calonnya aminudin hehe");
     }
 
