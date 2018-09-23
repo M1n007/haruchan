@@ -1,0 +1,36 @@
+{
+  "name": "haruchan-bot",
+  "version": "1.0.0",
+  "description": "just for make some people happy",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dbot-js": "^1.0.2",
+    "express": "^4.16.3",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M1n007/haruchan.git"
+  },
+  "keywords": [
+    "bot",
+    "haruka",
+    "bot",
+    "haruchan",
+    "bot",
+    "line"
+  ],
+  "author": "M1n007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M1n007/haruchan/issues"
+  },
+  "homepage": "https://github.com/M1n007/haruchan#readme"
+}
