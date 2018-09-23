@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const request = require('request');
 
 const simsimiKey = 'cc09e04a-62db-492d-b3b1-4ec654ed82ed';
-const url = `http://sandbox.api.simsimi.com/request.p?key=${simsimiKey}&lc=id&ft=1.0&text=`;
+const url = `http://sandbox.api.simsimi.com/request.p?key=${simsimiKey}&lc=id&ft=9.0&text=`;
 
 // async function getSholat(){
 //     await fetch('http://muslimsalat.com/jakarta.json?key=bd099c5825cbedb9aa934e255a81a5fc')
