@@ -20,7 +20,7 @@ bot.on('message', (msg) => {
     const chatId = msg.chat.id;
 
     request(url + msg.text.toString(), (err, response, body) => {
-        if (bot.sendMessage(chatId, JSON.parse(body).response) === "simi" && bot.sendMessage(chatId, JSON.parse(body).response) === "nama") {
+        if ( msg.text.toString() == "namanya siapa") {
             bot.sendMessage(chatId, "namaku haruchan, calonnya aminudin hehe");
         }else{
             bot.sendMessage(chatId, JSON.parse(body).response);
