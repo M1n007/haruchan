@@ -20,7 +20,15 @@ bot.on('message', (msg) => {
     const chatId = msg.chat.id;
 
     request(url + msg.text.toString(), (err, response, body) => {
-        if ( msg.text.toString() == "namanya siapa") {
+        if ( 
+            msg.text.toString() == "namanya siapa" || 
+            msg.text.toString() == "namanya siapa ?" ||
+            msg.text.toString() == "nama siapa ?" ||
+            msg.text.toString() == "nama siapa" || 
+            msg.text.toString() == "nama kamu siapa ?" ||
+            msg.text.toString() == "nama kamu siapa"
+    
+    ) {
             bot.sendMessage(chatId, "namaku haruchan, calonnya aminudin hehe");
         }else{
             bot.sendMessage(chatId, JSON.parse(body).response);
